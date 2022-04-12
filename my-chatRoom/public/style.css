@@ -7,8 +7,10 @@
 #intro {
 	background-color: #444;
 	padding: 10px;
+	border-radius: 1rem;
 	text-align: center;
 	color: #ffffff;
+	margin: 20px;
 	/* height: 5%; */
 }
 /* .grey {
@@ -16,15 +18,15 @@
 
 body {
 	font: 20px;
-	background-color: #f7f7f7;
-	border: 20px solid white;
+	background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
+	/* border: 20px solid white; */
 	height: 100vh;
 }
 
 form {
-	background: #999;
+	/* background: #999; */
 	border-radius: 10rem;
-	padding: 3px;
+	padding: 5px;
 	position: fixed;
 	bottom: 5px;
 	right: 20px;
@@ -53,15 +55,19 @@ form button {
 
 #messages {
 	/* max-width: 100px; */
-	margin: 0;
+	margin: 0 20px;
 	padding: 0;
 	list-style-type: none;
+	color: white;
+	/* display: flex;
+	justify-content: end; */
 }
 
 #messages li {
 	padding: 5px 10px;
 	border-radius: 5rem;
 	margin: 5px;
+	/* display: flex; */
 }
 
 /* #messages li:nth-child(odd) {
@@ -70,5 +76,5 @@ form button {
 
 #list {
 	text-align: right;
-	background: #b3ffb3;
+	background: #5f655f;
 }
