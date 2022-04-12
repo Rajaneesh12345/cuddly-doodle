@@ -1,0 +1,19 @@
+{
+	"name": "my-chatroom",
+	"version": "1.0.0",
+	"description": "very simple chat application",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon ./app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "rajaneesh",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	},
+	"dependencies": {
+		"express": "^4.17.3",
+		"socket.io": "^4.4.1"
+	}
+}
